@@ -10,7 +10,7 @@ import os
 
 from requests.api import head
 
-url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=f0698571-2a9c-4de0-8a25-ea7c7d816e21"
+url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=Your_api_key"
 
 #Defining data
 headers = {
@@ -78,7 +78,7 @@ db_config = {
     'host': 'localhost',
     'port': 5432,
     'user': 'postgres',
-    'password': 'Lakers33!',
+    'password': 'pwd',
     'database': 'Crypto',
 }
 #Path to CSV file in local drive
