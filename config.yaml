@@ -1,0 +1,12 @@
+#Setting my PostgreSQL connection
+#Importing this is from Extract script
+
+api_key: f0698571-2a9c-4de0-8a25-ea7c7d816e21
+csv_file_path: 'CMCcrypto.csv'
+log_file_path: 'etl_log.log'
+db_config:
+  host: 'localhost'
+  port: 5432
+  user: 'postgres'
+  password: 'Lakers33!'
+  database: 'Crypto'
